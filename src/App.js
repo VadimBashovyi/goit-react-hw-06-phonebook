@@ -6,7 +6,7 @@ import Contacts from './components/Contacts/Contacts'
 import Filter from './components/Filter/Filter'
 
 export default function App() {
-  const filterCon = useSelector((state) => state.contacts.filter)
+  const filterCon = useSelector((state) => state.contacts.items)
 
   return (
     <div className="App">
